@@ -1,16 +1,8 @@
-
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-int n,i;
-scanf("%d",&n);
-i=1;
-while(i<=n)
-{
-printf("%d",i);
-i++;
-}
+long int x=10235567778888;
+printf("x=%d",x);
+printf("\n &x=%u",&x);
 return 0;
 }
-
-    

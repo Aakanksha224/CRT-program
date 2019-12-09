@@ -1,18 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int n,r,max=0;
-scanf("%d",&n);
-while(n!=0)
-{
-r=n%10;
-if(r>max)
-max=r;
-n=n/10;
-}
-printf("%d",max);
+int x=10,y=15;
+int z;
+int p;
+p=++x*(y--+--z);
+printf("x=%d y=%d z=%d p=%d",x,y,z,p);
 return 0;
 }
-
-
-    
